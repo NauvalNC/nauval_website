@@ -3,9 +3,10 @@
   margin-top: var(--header-fixed-height);
   background: var(--primary);
   background: var(--gradient-background);
-  text-align: center;
-  padding-top: var(--section-1-vertical-padding);
-  padding-bottom: var(--section-1-vertical-padding);
+  text-align: right;
+  color: white;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .intro-text {
