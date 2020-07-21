@@ -9,9 +9,9 @@
   --text-medium-size: 20px;
   --text-large-size: 45px;
 
-  --primary: #ff0b55;
+  --primary: #z;
   --primary-dark: #e41a56;
-  --secondary: #323232;
+  --secondary: #000000;
   --thirdary: rgba(253,95,0,1);
   --soft-white-color: #f9f9f9;
   --soft-white-color-darker: #ededeb;
@@ -226,6 +226,7 @@ $gradient-2: var(--thirdary);
 .brand img
 {
   height: var(--text-medium-size);
+  filter: invert(1);
 }
 
 .brand button, .hamburger-nav button
