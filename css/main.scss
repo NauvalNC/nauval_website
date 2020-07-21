@@ -9,15 +9,16 @@
   --text-medium-size: 20px;
   --text-large-size: 45px;
 
-  --primary: #z;
-  --primary-dark: #e41a56;
+  --primary: #cd0004;
+  --primary-dark: #a00003;
   --secondary: #000000;
   --thirdary: rgba(253,95,0,1);
   --soft-white-color: #f9f9f9;
   --soft-white-color-darker: #ededeb;
   --soft-white-color-text: #a4a4a4;
 
-  --gradient-background: linear-gradient(90deg, rgba(255,11,85,1) 0%, rgba(253,95,0,1) 100%);
+  /*--gradient-background: linear-gradient(90deg, rgba(255,11,85,1) 0%, rgba(253,95,0,1) 100%);*/
+  --gradient-background: --primary;
 
   --border-radius-default: .3rem;
 
