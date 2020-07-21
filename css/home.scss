@@ -25,7 +25,7 @@
 
 /* M-Project | START */
 
-.m-project 
+#m-project 
 {
   background:var(--primary); 
   color: white; 
@@ -35,7 +35,7 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) 
 {
-  .m-project 
+  #m-project 
   {
     background-image: url("https://rawcdn.githack.com/NauvalNC/nauval_website/bc86bd8e6cd16e73bd308db3331a6b20ce217ca4/images/rigging.png");
     background-position-x: center;
