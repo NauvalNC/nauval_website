@@ -60,7 +60,8 @@ body {
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(0deg, var(--primary) 0%, var(--thirdary) 100%);
+  /*background: -webkit-linear-gradient(0deg, $gradient-1 0%, $gradient-2 100%);*/
+  color: var(--primary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
