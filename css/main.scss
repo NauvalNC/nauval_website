@@ -81,7 +81,7 @@ $gradient-2: var(--thirdary);
 .text-gradient 
 {
   /*background: -webkit-linear-gradient(0deg, $gradient-1 0%, $gradient-2 100%);*/
-  color: var(--primary);
+  background: var(--primary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
