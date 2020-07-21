@@ -14,7 +14,7 @@
   --soft-white-color-darker: #ededeb;
   --soft-white-color-text: #a4a4a4;
   /*--gradient-background: linear-gradient(90deg, rgba(255,11,85,1) 0%, rgba(253,95,0,1) 100%);*/
-  --gradient-background: --primary;
+  --gradient-background: var(--primary);
   --border-radius-default: .3rem;
   --section-1-vertical-padding: 180px;
   --default-transition: 0.3s ease;
