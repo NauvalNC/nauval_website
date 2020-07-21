@@ -1,0 +1,300 @@
+/* Section 1 | START*/
+#section-1 {
+  margin-top: var(--header-fixed-height);
+  background: var(--primary);
+  background: var(--gradient-background);
+  text-align: center;
+  padding-top: var(--section-1-vertical-padding);
+  padding-bottom: var(--section-1-vertical-padding);
+}
+
+.intro-text {
+  background: var(--secondary);
+  color: white;
+  font-size: 85px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 90%;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Section 1 | END */
+/* Section 2, 6, 11 | START */
+#section-2, #section-6, #section-12 {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.text-brief-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Section 2, 6, 11 | END */
+/* Section 3 | START */
+#section-3 {
+  background: var(--soft-white-color);
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.dialogue-item-wrapper {
+  padding: 20px;
+  border-radius: var(--border-radius-default);
+  -webkit-transition: var(--default-transition);
+  transition: var(--default-transition);
+}
+
+.dialogue-item-wrapper:hover {
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  -webkit-transition: var(--default-transition);
+  transition: var(--default-transition);
+}
+
+.dialogue-item {
+  background: var(--primary);
+  background: var(--gradient-background);
+  height: 180px;
+  border-radius: var(--border-radius-default);
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.triangle-bottom {
+  border-radius: 0;
+  border: 20px solid var(--secondary);
+  background: none;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  margin: 0 auto;
+}
+
+/* Section 3 | END */
+/* Section 4 | START */
+#section-4 {
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.fun-fact-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.fun-fact {
+  border-radius: var(--border-radius-default);
+  -webkit-transition: var(--default-transition);
+  transition: var(--default-transition);
+}
+
+.fun-fact:hover {
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  -webkit-transition: var(--default-transition);
+  transition: var(--default-transition);
+}
+
+.fun-fact .text-large-size {
+  font-size: 60px;
+}
+
+/* Section 4 | END */
+/* Section 5 | START */
+#section-5 {
+  background: var(--primary);
+  background: var(--gradient-background);
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.quote-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Section 5 | END */
+/* Section 7 | START */
+#section-7 {
+  padding: 80px 30px;
+  padding-bottom: 0;
+  background: var(--soft-white-color);
+}
+
+#section-7 .profile-wrapper .profile-photo {
+  width: 400px;
+  margin-right: 20px;
+}
+
+.profile-des-wrapper .profile-photo-circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 40px 0px;
+}
+
+#section-7 .profile-des-wrapper {
+  margin-bottom: 80px;
+}
+
+#section-7 .profile-contact-wrapper {
+  margin-top: 10px;
+}
+
+/* Section 7 | END */
+/* Section 8 | START */
+#section-8, #section-11 {
+  padding: 120px 20px;
+}
+
+.channel-wrapper-lg, .channel-wrapper {
+  text-align: center;
+}
+
+.channel-img {
+  width: 90%;
+}
+
+/* Section 8 | END */
+/* Section 9 | START */
+#section-9 {
+  text-align: center;
+  padding: 60px 20px;
+  background: var(--primary);
+  background: var(--gradient-background);
+}
+
+.post-item-wrapper {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.post-item {
+  border-radius: var(--border-radius-default);
+  background: white;
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  max-width: 445px;
+  margin: 0 auto;
+  -webkit-transition: var(--default-transition);
+  transition: var(--default-transition);
+}
+
+.post-item:hover {
+  -webkit-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  -webkit-transition: var(--default-transition);
+  transition: var(--default-transition);
+}
+
+.post-time {
+  background: var(--secondary);
+  color: white;
+  padding: 5px 10px;
+  width: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+.post-img {
+  height: auto;
+}
+
+.post-img img {
+  padding: 0 !important;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: var(--border-radius-default) var(--border-radius-default) 0px 0px;
+}
+
+.post-des {
+  max-width: 445px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.post-des .post-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Section 9 | END */
+/* Section 9 | START */
+#section-10 {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.portfolios-wrapper {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.portfolio-item-wrapper {
+  padding: 10px;
+}
+
+.portfolio-item {
+  margin: 0 auto;
+  max-width: 445px;
+  height: 250px;
+  border-radius: var(--border-radius-default);
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  -webkit-transition: var(--default-transition);
+  transition: var(--default-transition);
+}
+
+.portfolio-item:hover {
+  -webkit-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  -webkit-transition: var(--default-transition);
+  transition: var(--default-transition);
+}
+
+.portfolio-item:hover > .portfolio-des-wrapper {
+  opacity: 1;
+  height: 100%;
+  -webkit-transition: var(--default-transition);
+  transition: var(--default-transition);
+}
+
+.portfolio-des-wrapper {
+  z-index: 1;
+  border-radius: var(--border-radius-default);
+  background: var(--primary);
+  background: var(--gradient-background);
+  margin: 0;
+  height: 0;
+  opacity: 0;
+  -webkit-transition: var(--default-transition);
+  transition: var(--default-transition);
+}
+
+.portfolio-des {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Section 9 | END */
+/* Section 11 | START */
+#section-11 {
+  background: var(--soft-white-color);
+}
+
+/* Section 11 | END */
+/* Section 12 | START */
+/* Section 12 | END */
+/*# sourceMappingURL=home.css.map */
