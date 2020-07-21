@@ -194,8 +194,6 @@ body {
 
 .brand img {
   height: var(--text-medium-size);
-  -webkit-filter: invert(1);
-          filter: invert(1);
 }
 
 .brand button, .hamburger-nav button {
