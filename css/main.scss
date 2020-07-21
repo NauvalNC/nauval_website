@@ -173,6 +173,11 @@ $gradient-2: var(--thirdary);
   transition: var(--default-transition);
 }
 
+.card 
+{
+  border-radius: var(--border-radius-default);
+}
+
 .profile-btn
 {
   padding: 0;

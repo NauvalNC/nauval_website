@@ -147,6 +147,10 @@ body {
   transition: var(--default-transition);
 }
 
+.card {
+  border-radius: var(--border-radius-default);
+}
+
 .profile-btn {
   padding: 0;
   margin: 0;
@@ -278,7 +282,7 @@ body {
   margin-bottom: 15px;
 }
 
-.profile-contact-wrapper button i, .footer-wrapper p {
+.footer-wrapper .profile-contact-wrapper button i, .footer-wrapper p {
   color: white;
 }
 
