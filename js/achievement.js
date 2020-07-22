@@ -47,7 +47,7 @@ for (var i=0; i < ac.length; i++)
   
   item += "<div class='row align-items-center'>";
   item += "<div class='col-lg-6 d-lg-block d-none text-center'>";
-  item += "<img class='"+(land ? "cert-land" : "cert-pot")+"' src='"+ac[i].url+"'/>";
+  item += "<img class='"+(land ? "cert-land" : "cert-pot")+" image-view' src='"+ac[i].url+"'/>";
   item += "</div>";
   
   item += "<div class='col-lg-6 text-center text-lg-left' style='margin: 25px 0px;'>";
