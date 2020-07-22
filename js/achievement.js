@@ -73,6 +73,6 @@ $(document).ready(function()
   for (let i = 0; i < viewBtn.length; i++) 
   {
     let x = viewBtn[i];
-    x.addEventListener("click", function(){ console.log(ac[i].url); });
+    x.addEventListener("click", function(){ SetImageViewer(ac[i].url); });
   }
 });
