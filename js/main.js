@@ -80,13 +80,11 @@ $(document).ready(function()
     //SetImageViewer("https://2.bp.blogspot.com/-r2JhMyeHJy0/XNl6NfWXU-I/AAAAAAAAJKU/XCYfkYOsMQwKsyLoAz-C9NY8AAREVN8ZwCEwYBhgL/s1600/sample.png");
 
     //Implementation
-    for (var i = 0; i < defImgView.length; i++)
+    for (let i = 0; i < defImgView.length; i++) 
     {
-        defImgView[i].click(function()
-        {
-            var imageSource = defImgView[i].attr("src");
-            SetImageViewer(imageSource);
-        });
+        let x = defImgView[i];
+        let imageSource = x.attr("src");
+        x.addEventListener("click", function(){ SetImageViewer(imageSource); });
     }
     
     imageToView.click(function()
