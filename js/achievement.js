@@ -19,12 +19,13 @@ var ac =
 for (var i=0; i < ac.length; i++)
 {
   console.log("hello"+i);
+  console.log($("#achievement .container .carousel .carousel-indicators"));
   
   if (i==0)
   {
-    $("#achievement .container .carousel .carousel-indicators" ).append("<li class='active' data-slide-to='"+i+"' data-target='#carouselExampleIndicators'/>");
+    $("#achievement .container .carousel .carousel-indicators").append("<li class='active' data-slide-to='"+i+"' data-target='#carouselExampleIndicators'/>");
     continue;
   }
   
-  $("#achievement .container .carousel .carousel-indicators" ).append("<li data-slide-to='"+i+"' data-target='#carouselExampleIndicators'/>");
+  $("#achievement .container .carousel .carousel-indicators").append("<li data-slide-to='"+i+"' data-target='#carouselExampleIndicators'/>");
 }
