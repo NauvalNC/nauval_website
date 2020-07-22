@@ -26,6 +26,7 @@ $(document).ready(function()
 
   function SetupSideNav()
   {
+    sideNavPanel.hide();
     sideNavPanel.css("width", sideNavWidth + "px");
     sideNavPanel.css("padding", sideNavPadding + "px");
   }
