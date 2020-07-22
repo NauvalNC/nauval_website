@@ -18,17 +18,18 @@ var ac =
 
 var indicator = $("#achievement .container .carousel .carousel-indicators");
 var inner = $("#achievement .container .carousel .carousel-inner");
+var item = "";
 
 for (var i=0; i < ac.length; i++)
 {
   if (i==0)
   {
     indicator.append("<li class='active' data-slide-to='"+i+"' data-target='#carouselExampleIndicators'/>");
-    inner.append("<div class='carousel-item active'>");
+    item += "<div class='carousel-item active'>";
   } else 
   {
     indicator.append("<li data-slide-to='"+i+"' data-target='#carouselExampleIndicators'/>");
-    inner.append("<div class='carousel-item'>");
+    item += "<div class='carousel-item'>";
   }
   
   var land = (ac[i].mode == "land") ? true : false;
@@ -37,17 +38,17 @@ for (var i=0; i < ac.length; i++)
   if (ac[i].type == "cer") type = "CERTIFICATE";
   else if (ac[i].type == "ac") type = "ACHIEVEMENT";
   
-  inner.append("<div class='row align-items-center'>");
-  inner.append("<div class='col-lg-6 d-lg-block d-none text-center'>");
-  inner.append("<img class='cert-land' src='https://rawcdn.githack.com/NauvalNC/nauval_website/a433654567f1ef9e81e7dbc5f1b5eb46ea816e54/images/JAPAN_SAKURA_SCIENCE_EXCHANGE_PROGRAM_2018_Certificate.jpg'/>");
-  inner.append("</div>");
+  item += "<div class='row align-items-center'>";
+  item += "<div class='col-lg-6 d-lg-block d-none text-center'>";
+  item += "<img class='"+(land ? "cert-lan" : "cert-pot")+"' src='"+ac[i].url+"'/>");
+  item += "</div>";
   
-  inner.append("<div class='col-lg-6 text-center text-lg-left' style='margin: 25px 0px;'>");
-  inner.append("<p class='text-small-size text-bold'>CERTIFICATION</p>");
-  inner.append("<p class='text-large-size text-bold'>SAKURA SCIENCE EXCHANGE PROGRAM JAPAN 2018</p>");
-  inner.append("</div>");
+  item += "<div class='col-lg-6 text-center text-lg-left' style='margin: 25px 0px;'>";
+  item += "<p class='text-small-size text-bold'>"+type+"</p>";
+  item += "<p class='text-large-size text-bold'>"+ac[i].title+"</p>";
+  item += "</div>";
     
-  inner.append("</div>");
+  item += "</div>";
   
-  inner.append("</div>");
+  item += "</div>";
 }
