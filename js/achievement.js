@@ -21,9 +21,6 @@ var inner = $("#achievement .container .carousel .carousel-inner");
 
 for (var i=0; i < ac.length; i++)
 {
-  console.log("hello"+i);
-  console.log($("#achievement .container .carousel .carousel-indicators"));
-  
   if (i==0)
   {
     indicator.append("<li class='active' data-slide-to='"+i+"' data-target='#carouselExampleIndicators'/>");
@@ -31,7 +28,7 @@ for (var i=0; i < ac.length; i++)
   } else 
   {
     indicator.append("<li data-slide-to='"+i+"' data-target='#carouselExampleIndicators'/>");
-    inner.append("<div class='row align-items-center'>");
+    inner.append("<div class='carousel-item'>");
   }
   
   inner.append("<div class='row align-items-center'>");
