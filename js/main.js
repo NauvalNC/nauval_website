@@ -49,6 +49,36 @@ imageViewerWrapper.click(function()
 
 //Image Viewer | END
 
+//Report Bug | START
+var reportWindow = $(".report-bug");
+var isReportHiding = true;
+
+setupReportWindow();
+
+function setupReportWindow() 
+{
+    reportWindow.hide();
+    reportWindow.css("opacity", "0");
+}
+
+function toggleReportWindow() 
+{
+    if (isReportHiding) 
+    {
+        reportWindow.show();
+        reportWindow.animate({opacity: "1"}, imageToggleInterval);
+    } else 
+    {
+        reportWindow.animate({opacity: "0"}, imageToggleInterval, function()
+        {
+            reportWindow.hide();
+        });
+    }
+
+    isReportHiding = !isReportHiding;
+}
+//Report Bug | END
+
 $(document).ready(function()
 {
     var homePageUrl = 'https://nauvalme.blogspot.com';
