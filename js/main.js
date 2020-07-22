@@ -1,3 +1,34 @@
+function SetupImageViewer() 
+{
+    imageViewerWrapper.hide();
+    imageViewerWrapper.css("opacity", "0");
+} 
+
+function SetImageViewer(imageUrl)
+{
+    imageFrame.attr("src", imageUrl);
+    ToggleViewer();
+}
+
+function ToggleViewer() 
+{
+    if (isViewerHiding) 
+    {
+        imageViewerWrapper.show();
+        imageViewerWrapper.animate({opacity: "1"}, imageToggleInterval);
+    } else 
+    {
+        imageViewerWrapper.animate({opacity: "0"}, imageToggleInterval, function()
+        {
+            imageViewerWrapper.hide();
+        });
+    }
+
+    isViewerHiding = !isViewerHiding;
+}
+
+//Image Viewer | END
+
 $(document).ready(function()
 {
     var homePageUrl = 'https://nauvalme.blogspot.com';
@@ -98,35 +129,4 @@ $(document).ready(function()
     {
         ToggleViewer();
     });
-
-    function SetupImageViewer() 
-    {
-        imageViewerWrapper.hide();
-        imageViewerWrapper.css("opacity", "0");
-    } 
-
-    function SetImageViewer(imageUrl)
-    {
-        imageFrame.attr("src", imageUrl);
-        ToggleViewer();
-    }
-
-    function ToggleViewer() 
-    {
-        if (isViewerHiding) 
-        {
-            imageViewerWrapper.show();
-            imageViewerWrapper.animate({opacity: "1"}, imageToggleInterval);
-        } else 
-        {
-            imageViewerWrapper.animate({opacity: "0"}, imageToggleInterval, function()
-            {
-                imageViewerWrapper.hide();
-            });
-        }
-
-        isViewerHiding = !isViewerHiding;
-    }
-
-    //Image Viewer | END
 });
