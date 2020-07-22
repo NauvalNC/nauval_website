@@ -6,14 +6,20 @@ var ac =
   {url:"https://rawcdn.githack.com/NauvalNC/nauval_website/a433654567f1ef9e81e7dbc5f1b5eb46ea816e54/images/SINGAPORE_MAGES_INSTITUTE_OF_EXCELLENCE_BASIC_GAMES_PROGRAMMING_Certificate.jpg", 
   type: "cer", mode: "pot", title: "GAME PROGRAMMING MAGES INSTITUTE OF EXCELLENCE SINGAPORE"},
   
+  {url: "https://rawcdn.githack.com/NauvalNC/nauval_website/a433654567f1ef9e81e7dbc5f1b5eb46ea816e54/images/GOLD_MEDALIST_OF_2018_GAME_APPLICATION_OF_CREATIVE_IDEA_BINUS_UNIVERSITY_JAKARTA.jpg", 
+  type: "ach", mode: "land", title: "GOLD MEDALIST GAT CREATIVE IDEA 2018 BINUS UNIVERSITY"},
+  
   {url: "https://rawcdn.githack.com/NauvalNC/nauval_website/a433654567f1ef9e81e7dbc5f1b5eb46ea816e54/images/SINGAPORE_MAGES_INSTITUTE_OF_EXCELLENCE_MOBILE_GAME_DEVELOPMENT_Certificate.jpg", 
   type: "cer", mode: "pot", title: "MOBILE GAME DEV MAGES INSTITUTE OF EXCELLENCE SINGAPORE"},
   
-  {url: "https://rawcdn.githack.com/NauvalNC/nauval_website/a433654567f1ef9e81e7dbc5f1b5eb46ea816e54/images/GOLD_MEDALIST_OF_2018_GAME_APPLICATION_OF_CREATIVE_IDEA_BINUS_UNIVERSITY_JAKARTA.jpg", 
-  type: "ach", mode: "land", title: "GOLD MEDALIST GAT CREATIVE IDEA 2018 BINUS UNIV"},
+  {url: "https://rawcdn.githack.com/NauvalNC/nauval_website/ced1267296e81d6d66af93d9b26a0407db5c0d66/images/1_HIGH_DISTINCTION_YEAR_1_APPLIED_COMPUTER_PROJECT_ANDROID_PROGRAMMING_BINUS_UNIVERSITY_JAKARTA_Front.jpg", 
+  type: "cer", mode: "land", title: "HIGH DISTINCTION APPLIED ANDROID PROGRAMMING BINUS_UNIVERSITY"},
+  
+  {url: "https://rawcdn.githack.com/NauvalNC/nauval_website/ced1267296e81d6d66af93d9b26a0407db5c0d66/images/sololearn_cert.png", 
+  type: "ach", mode: "land", title: "SOLOLEARN COURSES ON C++, C#, JAVA, SWIFT, JS, jQuery, PHP, AND MORE"}
   
   {url: "https://rawcdn.githack.com/NauvalNC/nauval_website/a433654567f1ef9e81e7dbc5f1b5eb46ea816e54/images/JUARA_1_OF_2018_TECHCOMFEST_PROGRAMMING_COMPETITION_POLITEKNIK_NEGERI_SEMARANG.jpg", 
-  type: "ach", mode: "land", title: "FIRST WINNER TECHCOMFEST PROGRAMMING COMPETITION 2018"}
+  type: "ach", mode: "land", title: "FIRST WINNER TECHCOMFEST PROGRAMMING COMPETITION 2018"},
 ];
 
 var indicator = $("#achievement .container .carousel .carousel-indicators");
