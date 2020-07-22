@@ -16,6 +16,9 @@ var ac =
   type: "ach", mode: "land", title: "FIRST WINNER TECHCOMFEST PROGRAMMING COMPETITION 2018"}
 ];
 
+var indicator = $("#achievement .container .carousel .carousel-indicators");
+var inner = $("#achievement .container .carousel .carousel-inner");
+
 for (var i=0; i < ac.length; i++)
 {
   console.log("hello"+i);
@@ -23,9 +26,33 @@ for (var i=0; i < ac.length; i++)
   
   if (i==0)
   {
-    $("#achievement .container .carousel .carousel-indicators").append("<li class='active' data-slide-to='"+i+"' data-target='#carouselExampleIndicators'/>");
-    continue;
+    indicator.append("<li class='active' data-slide-to='"+i+"' data-target='#carouselExampleIndicators'/>");
+    inner.append("<div class='carousel-item active'>");
+  } else 
+  {
+    indicator.append("<li data-slide-to='"+i+"' data-target='#carouselExampleIndicators'/>");
+    inner.append("<div class='row align-items-center'>");
   }
   
-  $("#achievement .container .carousel .carousel-indicators").append("<li data-slide-to='"+i+"' data-target='#carouselExampleIndicators'/>");
+  inner.append("<div class='row align-items-center'>");
+  
+  var land = (ac[i].mode == "land") ? true : false;
+  
+  inner.append("<div class='col-lg-6 d-lg-block d-none text-center'>");
+  inner.append("<img class='"+ ((land) ? "cert-land" : "cert-pot") + "' src='"+ac[i].url+"'/>");
+  inner.append("</div>");
+  
+  inner.append("<div class='col-lg-6 text-center text-lg-left' style='margin: 25px 0px;'>");
+  
+  var type = "";
+  if (ac[i].type == "cer") type = "CERTIFICATE";
+  else if (ac[i].type == "ac") type = "ACHIEVEMENT";
+  
+  inner.append("<p class='text-small-size text-bold'>"+type+"</p>");
+  inner.append("<p class='text-large-size text-bold'>"+ac[i].title+"</p>");
+  inner.append("</div>");
+  
+  inner.append("</div>");
+  
+  inner.append("</div>");
 }
