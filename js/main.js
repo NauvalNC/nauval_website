@@ -79,7 +79,7 @@ $(document).ready(function()
     //SetImageViewer("https://2.bp.blogspot.com/-r2JhMyeHJy0/XNl6NfWXU-I/AAAAAAAAJKU/XCYfkYOsMQwKsyLoAz-C9NY8AAREVN8ZwCEwYBhgL/s1600/sample.png");
 
     //Implementation
-    for (var i=0; i < imageToVew.lenght; i++) 
+    for (var i=0; i < imageToView.length; i++) 
     {
         imageToView[i].click(function()
         {
