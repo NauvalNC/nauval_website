@@ -68,7 +68,7 @@ $(".ach-view-btn").each(function(index, value) {
   console.log("hello");
   this.click(function()
   {
-      SetImageViewer(ac[i].url);
+      SetImageViewer(ac[index].url);
       console.log("Hello "+index);
   });
 });
