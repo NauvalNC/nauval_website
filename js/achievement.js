@@ -15,6 +15,9 @@ var ac =
   {url: "https://rawcdn.githack.com/NauvalNC/nauval_website/ced1267296e81d6d66af93d9b26a0407db5c0d66/images/1_HIGH_DISTINCTION_YEAR_1_APPLIED_COMPUTER_PROJECT_ANDROID_PROGRAMMING_BINUS_UNIVERSITY_JAKARTA_Front.jpg", 
   type: "cer", mode: "land", title: "HIGH DISTINCTION APPLIED ANDROID PROGRAMMING BINUS UNIVERSITY"},
   
+  {url: "https://rawcdn.githack.com/NauvalNC/nauval_website/8cc6d0fab4ab695fef20161f46e4f33848cd8a1b/images/flatpastel.jpg", 
+  type: "cer", mode: "land", title: "GAME AND WEB DEV FLATPASTEL ENT. EXCELLENT PREDICATE"},
+  
   {url: "https://rawcdn.githack.com/NauvalNC/nauval_website/ced1267296e81d6d66af93d9b26a0407db5c0d66/images/sololearn_cert.png", 
   type: "cer", mode: "land", title: "SOLOLEARN COURSES ON C++, C#, JAVA, SWIFT, JS, jQuery, PHP, AND MORE"},
   
