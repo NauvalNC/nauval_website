@@ -53,6 +53,11 @@ imageViewerWrapper.click(function()
 var reportWindow = $(".report-bug");
 var isReportHiding = true;
 
+reportWindow.click(function()
+{
+    toggleReportWindow();
+});
+
 setupReportWindow();
 
 function setupReportWindow() 
