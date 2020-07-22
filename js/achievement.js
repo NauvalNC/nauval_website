@@ -67,6 +67,7 @@ for (var i=0; i < ac.length; i++)
 var viewBtn = document.getElementsByClassName("ach-view-btn");
 for (var i = 0; i < viewBtn.length; i++) 
 {
+  document.write(viewBtn[i] + "<br>");
   viewBtn[i].click(function()
   {
     console.log("hello"+i);
