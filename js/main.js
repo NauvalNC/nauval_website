@@ -37,6 +37,11 @@ function ToggleViewer()
     isViewerHiding = !isViewerHiding;
 }
 
+imageViewerCloser.click(function()
+{
+    ToggleViewer();
+});
+
 //Image Viewer | END
 
 $(document).ready(function()
@@ -123,9 +128,4 @@ $(document).ready(function()
         let imageSource = $(x).attr("src");
         x.addEventListener("click", function(){ SetImageViewer(imageSource); });
     }
-
-    imageViewerCloser.click(function()
-    {
-        ToggleViewer();
-    });
 });
