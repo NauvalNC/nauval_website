@@ -54,7 +54,7 @@ for (var i=0; i < ac.length; i++)
   item += "<p class='text-small-size text-bold'>"+type+"</p>";
   item += "<p class='text-large-size d-none d-sm-block text-bold'>"+ac[i].title+"</p>";
   item += "<p class='text-medium-size d-sm-none d-block text-bold'>"+ac[i].title+"</p>";
-  item += "<button class='featured-btn-white' name='button' type='button' onClick='SetupImageViewer(\'https://www.google.com\')'>VIEW</button>";
+  item += "<button class='featured-btn-white ach-view-btn' name='button' type='button'>VIEW</button>";
   item += "</div>";
     
   item += "</div>";
@@ -62,4 +62,14 @@ for (var i=0; i < ac.length; i++)
   item += "</div>";
   
   inner.append(item);
+}
+
+var viewBtnTemp = $(".ach-view-btn");
+var viewBtn = viewBtn.toArray();
+for (var i = 0; i < viewBtn.length; i++) 
+{
+  viewBtn[i].click(function()
+  {
+      SetImageViewer(ac[i].url);
+  });
 }
