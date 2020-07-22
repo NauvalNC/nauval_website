@@ -50,28 +50,10 @@ imageViewerWrapper.click(function()
 //Image Viewer | END
 
 //Report Bug | START
-var reportWindow = $(".report-bug");
+var reportWindow = $("#report-bug");
 var isReportHiding = true;
-var reportBtn = $("#reportbtn");
 
 setupReportWindow();
-
-reportBtn.click(function()
-{
-    var subject = $("#errsubject");
-    var message = $("errmessage");
-    
-    $.ajax(
-    {
-        url:'https://rawcdn.githack.com/NauvalNC/nauval_website/5426dd79f9f4984a190da793a1b67a56478e9fbd/php/mail.php',
-        type:'post',
-        data:{subject:subject, message:message},
-        success:function(response)
-        {
-            alert("success");
-        }
-    });
-});
 
 function setupReportWindow() 
 {
