@@ -54,7 +54,7 @@ for (var i=0; i < ac.length; i++)
   item += "<p class='text-small-size text-bold'>"+type+"</p>";
   item += "<p class='text-large-size d-none d-sm-block text-bold'>"+ac[i].title+"</p>";
   item += "<p class='text-medium-size d-sm-none d-block text-bold'>"+ac[i].title+"</p>";
-  item += "<button class='featured-btn-white ach-view-btn' name='button' type='button'>VIEW</button>";
+  item += "<button class='featured-btn-white d-lg-none ach-view-btn text-small-size' style='padding: 5px 10px' name='button' type='button'>VIEW</button>";
   item += "</div>";
     
   item += "</div>";
@@ -62,11 +62,4 @@ for (var i=0; i < ac.length; i++)
   item += "</div>";
   
   inner.append(item);
-}
 
-var viewBtn = document.getElementsByClassName("ach-view-btn");
-for (var i = 0; i < viewBtn.length; i++) 
-{
-  document.write(viewBtn[i] + "<br>");
-  viewBtn[i].onclick = console.log("hello");
-}
