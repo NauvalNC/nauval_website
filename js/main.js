@@ -115,6 +115,7 @@ $(document).ready(function()
     var imageToView = $(".widget.Blog .post-outer img");
     var defImgView = $(".image-view");
     
+    console.log("len"+defImgView.length);
     for (let i = 0; i < defImgView.length; i++) 
     {
         let x = defImgView[i];
