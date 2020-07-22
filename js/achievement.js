@@ -22,6 +22,7 @@ var item = "";
 
 for (var i=0; i < ac.length; i++)
 {
+  item = "";
   if (i==0)
   {
     indicator.append("<li class='active' data-slide-to='"+i+"' data-target='#carouselExampleIndicators'/>");
@@ -51,6 +52,8 @@ for (var i=0; i < ac.length; i++)
   item += "</div>";
   
   item += "</div>";
+  
+  console.log(item);
   
   inner.append(item);
 }
