@@ -83,7 +83,7 @@ $(document).ready(function()
     for (let i = 0; i < defImgView.length; i++) 
     {
         let x = defImgView[i];
-        let imageSource = x.attr("src");
+        let imageSource = $(x).attr("src");
         console.log(imageSource);
         x.addEventListener("click", function(){ SetImageViewer(imageSource); });
     }
