@@ -64,22 +64,11 @@ for (var i=0; i < ac.length; i++)
   inner.append(item);
 }
 
-$(".ach-view-btn").each(function(index, value) {
-  console.log("hello");
-  this.click(function()
+var viewBtn = document.getElementsByClassName("ach-view-btn");
+for (var i = 0; i < viewBtn.length; i++) 
+{
+  viewBtn[i].click(function()
   {
-      SetImageViewer(ac[index].url);
-      console.log("Hello "+index);
+    console.log("hello"+i);
   });
-});
-
-// var viewBtnTemp = $(".ach-view-btn");
-// var viewBtn = jQuery.makeArray(viewBtnTemp);
-// for (var i = 0; i < viewBtn.length; i++) 
-// {
-//   viewBtn[i].click(function()
-//   {
-//       SetImageViewer(ac[i].url);
-//       console.log("Hello "+i);
-//   });
-// }
+}
