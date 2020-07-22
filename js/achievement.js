@@ -54,6 +54,7 @@ for (var i=0; i < ac.length; i++)
   item += "<p class='text-small-size text-bold'>"+type+"</p>";
   item += "<p class='text-large-size d-none d-sm-block text-bold'>"+ac[i].title+"</p>";
   item += "<p class='text-medium-size d-sm-none d-block text-bold'>"+ac[i].title+"</p>";
+  item += "<button class='featured-btn-white d-lg-none' name='button' type='button' onclick='SetImageViewer('"+ac[i].url+"');'>VIEW</button>";
   item += "</div>";
     
   item += "</div>";
