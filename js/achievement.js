@@ -46,8 +46,8 @@ for (var i=0; i < ac.length; i++)
   
   item += "<div class='col-lg-6 text-center text-lg-left' style='margin: 25px 0px;'>";
   item += "<p class='text-small-size text-bold'>"+type+"</p>";
-  item += "<p class='text-large-size d-none d-md-block text-bold'>"+ac[i].title+"</p>";
-  item += "<p class='text-medium-size d-sm-block d-none text-bold'>"+ac[i].title+"</p>";
+  item += "<p class='text-large-size d-none d-sm-block text-bold'>"+ac[i].title+"</p>";
+  item += "<p class='text-medium-size d-sm-none d-block text-bold'>"+ac[i].title+"</p>";
   item += "</div>";
     
   item += "</div>";
