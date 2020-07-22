@@ -71,5 +71,6 @@ for (var i = 0; i < viewBtn.length; i++)
   viewBtn[i].click(function()
   {
       SetImageViewer(ac[i].url);
+      console.log("Hello "+i);
   });
 }
