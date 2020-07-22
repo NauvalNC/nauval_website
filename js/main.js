@@ -42,6 +42,11 @@ imageViewerCloser.click(function()
     ToggleViewer();
 });
 
+imageViewerWrapper.click(function()
+{
+    ToggleViewer();
+});
+
 //Image Viewer | END
 
 $(document).ready(function()
