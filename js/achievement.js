@@ -41,7 +41,7 @@ for (var i=0; i < ac.length; i++)
   
   item += "<div class='row align-items-center'>";
   item += "<div class='col-lg-6 d-lg-block d-none text-center'>";
-  item += "<img class='"+(land ? "cert-lan" : "cert-pot")+"' src='"+ac[i].url+"'/>");
+  item += "<img class='"+(land ? "cert-lan" : "cert-pot")+"' src='"+ac[i].url+"'/>";
   item += "</div>";
   
   item += "<div class='col-lg-6 text-center text-lg-left' style='margin: 25px 0px;'>";
@@ -52,8 +52,6 @@ for (var i=0; i < ac.length; i++)
   item += "</div>";
   
   item += "</div>";
-  
-  console.log(item);
   
   inner.append(item);
 }
