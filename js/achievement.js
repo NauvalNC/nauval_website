@@ -31,25 +31,23 @@ for (var i=0; i < ac.length; i++)
     inner.append("<div class='carousel-item'>");
   }
   
-  inner.append("<div class='row align-items-center'>");
-  
   var land = (ac[i].mode == "land") ? true : false;
-  
-  inner.append("<div class='col-lg-6 d-lg-block d-none text-center'>");
-  inner.append("<img class='"+ ((land) ? "cert-land" : "cert-pot") + "' src='"+ac[i].url+"'/>");
-  inner.append("</div>");
-  
-  inner.append("<div class='col-lg-6 text-center text-lg-left' style='margin: 25px 0px;'>");
   
   var type = "";
   if (ac[i].type == "cer") type = "CERTIFICATE";
   else if (ac[i].type == "ac") type = "ACHIEVEMENT";
   
-  inner.append("<p class='text-small-size text-bold'>"+type+"</p>");
-  inner.append("<p class='text-large-size text-bold'>"+ac[i].title+"</p>");
-  inner.append("</div>");
-  
-  inner.append("</div>");
+  inner.append("
+  <div class='row align-items-center'>
+    <div class='col-lg-6 d-lg-block d-none text-center'>
+      <img class='cert-land' src='https://rawcdn.githack.com/NauvalNC/nauval_website/a433654567f1ef9e81e7dbc5f1b5eb46ea816e54/images/JAPAN_SAKURA_SCIENCE_EXCHANGE_PROGRAM_2018_Certificate.jpg'/>
+    </div>
+    <div class='col-lg-6 text-center text-lg-left' style='margin: 25px 0px;'>
+      <p class='text-small-size text-bold'>CERTIFICATION</p>
+      <p class='text-large-size text-bold'>SAKURA SCIENCE EXCHANGE PROGRAM JAPAN 2018</p>
+    </div>
+  </div>
+  ");
   
   inner.append("</div>");
 }
