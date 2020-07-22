@@ -67,7 +67,8 @@ $(document).ready(function()
     var imageViewerWrapper = $(".image-viewer-wrapper");
     var imageViewerCloser = $(".image-viewer-wrapper .image-closer");
     var imageFrame = $(".image-viewer-wrapper .image");
-    var imageToView = $(".widget.Blog .post-outer img");
+    
+    var imageToView = [$(".widget.Blog .post-outer img"), $(".image-view")];
     
     var imageToggleInterval = 300;
 
@@ -78,11 +79,14 @@ $(document).ready(function()
     //SetImageViewer("https://2.bp.blogspot.com/-r2JhMyeHJy0/XNl6NfWXU-I/AAAAAAAAJKU/XCYfkYOsMQwKsyLoAz-C9NY8AAREVN8ZwCEwYBhgL/s1600/sample.png");
 
     //Implementation
-    imageToView.click(function()
+    for (var i=0; i < imageToVew.lenght; i++) 
     {
-        var imageSource = imageToView.attr("src");
-        SetImageViewer(imageSource);
-    });
+        imageToView[i].click(function()
+        {
+            var imageSource = imageToView[i].attr("src");
+            SetImageViewer(imageSource);
+        });
+    }
 
     imageViewerCloser.click(function()
     {
