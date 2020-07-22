@@ -84,15 +84,15 @@ $(document).ready(function()
     {
         let x = defImgView[i];
         let imageSource = $(x).attr("src");
-        console.log(imageSource);
         x.addEventListener("click", function(){ SetImageViewer(imageSource); });
     }
     
-    imageToView.click(function()
+    for (let i = 0; i < imageToView.length; i++) 
     {
-        var imageSource = imageToView.attr("src");
-        SetImageViewer(imageSource);
-    });
+        let x = imageToView[i];
+        let imageSource = $(x).attr("src");
+        x.addEventListener("click", function(){ SetImageViewer(imageSource); });
+    }
 
     imageViewerCloser.click(function()
     {
