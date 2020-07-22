@@ -75,4 +75,4 @@ $(document).ready(function()
     let x = viewBtn[i];
     x.addEventListener("click", function(){ SetImageViewer(ac[i].url);});
   }
-}
+});
