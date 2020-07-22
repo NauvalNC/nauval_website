@@ -79,6 +79,37 @@ function toggleReportWindow()
 }
 //Report Bug | END
 
+
+//Request Content | START
+var reqContentWindow = $("#report-bug");
+var isReqConHide = true;
+
+setupReqContentWindow();
+
+function setupReqContentWindow() 
+{
+    reqContentWindow.hide();
+    reqContentWindow.css("opacity", "0");
+}
+
+function toggleReqContentWindow() 
+{
+    if (isReqConHide) 
+    {
+        reqContentWindow.show();
+        reqContentWindow.animate({opacity: "1"}, imageToggleInterval);
+    } else 
+    {
+        reqContentWindow.animate({opacity: "0"}, imageToggleInterval, function()
+        {
+            reqContentWindow.hide();
+        });
+    }
+
+    isReqConHide = !isReqConHide;
+}
+//Request Content | END
+
 $(document).ready(function()
 {
     var homePageUrl = 'https://nauvalme.blogspot.com';
