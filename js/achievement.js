@@ -66,6 +66,11 @@ for (var i=0; i < ac.length; i++)
 
 $(".ach-view-btn").each(function(index, value) {
   console.log("hello");
+  this.click(function()
+  {
+      SetImageViewer(ac[i].url);
+      console.log("Hello "+index);
+  });
 });
 
 // var viewBtnTemp = $(".ach-view-btn");
