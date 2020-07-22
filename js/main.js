@@ -81,7 +81,7 @@ function toggleReportWindow()
 
 
 //Request Content | START
-var reqContentWindow = $("#report-bug");
+var reqContentWindow = $("#req-content");
 var isReqConHide = true;
 
 setupReqContentWindow();
