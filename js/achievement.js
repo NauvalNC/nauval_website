@@ -22,9 +22,9 @@ for (var i=0; i < ac.length; i++)
   
   if (i==0)
   {
-    $("#achievement .carousel-indicators" ).append("<li class='active' data-slide-to='"+i+"' data-target='#carouselExampleIndicators'/>");
+    $("#achievement .container .carousel .carousel-indicators" ).append("<li class='active' data-slide-to='"+i+"' data-target='#carouselExampleIndicators'/>");
     continue;
   }
   
-  $("#achievement .carousel-indicators" ).append("<li data-slide-to='"+i+"' data-target='#carouselExampleIndicators'/>");
+  $("#achievement .container .carousel .carousel-indicators" ).append("<li data-slide-to='"+i+"' data-target='#carouselExampleIndicators'/>");
 }
