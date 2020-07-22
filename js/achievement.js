@@ -4,10 +4,10 @@ var ac =
   type: "cer", mode: "land", title: "SAKURA SCIENCE EXCHANGE PROGRAM JAPAN 2018"},
   
   {url:"https://rawcdn.githack.com/NauvalNC/nauval_website/a433654567f1ef9e81e7dbc5f1b5eb46ea816e54/images/SINGAPORE_MAGES_INSTITUTE_OF_EXCELLENCE_BASIC_GAMES_PROGRAMMING_Certificate.jpg", 
-  type: "cer", mode: "pot", title: "GAME PROGRAMMING MAGES SINGAPORE"},
+  type: "cer", mode: "pot", title: "GAME PROGRAMMING MAGES INSTITUTE OF EXCELLENCE SINGAPORE"},
   
   {url: "https://rawcdn.githack.com/NauvalNC/nauval_website/a433654567f1ef9e81e7dbc5f1b5eb46ea816e54/images/SINGAPORE_MAGES_INSTITUTE_OF_EXCELLENCE_MOBILE_GAME_DEVELOPMENT_Certificate.jpg", 
-  type: "cer", mode: "pot", title: "MOBILE GAME DEV MAGES SINGAPORE"},
+  type: "cer", mode: "pot", title: "MOBILE GAME DEV MAGES INSTITUTE OF EXCELLENCE SINGAPORE"},
   
   {url: "https://rawcdn.githack.com/NauvalNC/nauval_website/a433654567f1ef9e81e7dbc5f1b5eb46ea816e54/images/GOLD_MEDALIST_OF_2018_GAME_APPLICATION_OF_CREATIVE_IDEA_BINUS_UNIVERSITY_JAKARTA.jpg", 
   type: "ach", mode: "land", title: "GOLD MEDALIST GAT CREATIVE IDEA 2018 BINUS UNIV"},
@@ -37,7 +37,7 @@ for (var i=0; i < ac.length; i++)
   
   var type = "";
   if (ac[i].type == "cer") type = "CERTIFICATE";
-  else if (ac[i].type == "ac") type = "ACHIEVEMENT";
+  else if (ac[i].type == "ach") type = "ACHIEVEMENT";
   
   item += "<div class='row align-items-center'>";
   item += "<div class='col-lg-6 d-lg-block d-none text-center'>";
