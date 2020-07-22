@@ -1,4 +1,4 @@
-var ac[5] = 
+var ac = 
 [
   {url:"https://rawcdn.githack.com/NauvalNC/nauval_website/a433654567f1ef9e81e7dbc5f1b5eb46ea816e54/images/JAPAN_SAKURA_SCIENCE_EXCHANGE_PROGRAM_2018_Certificate.jpg", 
   type: "cer", mode: "land", title: "SAKURA SCIENCE EXCHANGE PROGRAM JAPAN 2018},
