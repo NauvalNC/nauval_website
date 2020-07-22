@@ -119,6 +119,7 @@ $(document).ready(function()
     {
         let x = defImgView[i];
         let imageSource = $(x).attr("src");
+        console.log(imageSource);
         x.addEventListener("click", function(){ SetImageViewer(imageSource); });
     }
     
