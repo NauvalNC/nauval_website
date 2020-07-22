@@ -65,7 +65,7 @@ for (var i=0; i < ac.length; i++)
 }
 
 var viewBtnTemp = $(".ach-view-btn");
-var viewBtn = viewBtn.toArray();
+var viewBtn = viewBtnTemp.toArray();
 for (var i = 0; i < viewBtn.length; i++) 
 {
   viewBtn[i].click(function()
