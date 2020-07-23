@@ -14,7 +14,7 @@ $(document).ready(function()
     {url: "https://rawcdn.githack.com/NauvalNC/nauval_website/af32c64f906f51173da68676bcd366ba6788c68d/images/SINGAPORE_MAGES_INSTITUTE_OF_EXCELLENCE_MOBILE_GAME_DEVELOPMENT_Certificate.jpg", 
     type: "cer", mode: "pot", title: "MOBILE GAME DEV MAGES INSTITUTE OF EXCELLENCE SINGAPORE"},
 
-    {url: "https://rawcdn.githack.com/NauvalNC/nauval_website/af32c64f906f51173da68676bcd366ba6788c68d/images/1_HIGH_DISTINCTION_YEAR_1_APPLIED_COMPUTER_PROJECT_ANDROID_PROGRAMMING_BINUS_UNIVERSITY_JAKARTA_Front.jpg", 
+    {url: "https://rawcdn.githack.com/NauvalNC/nauval_website/452aad21cde982a5b0451cbaa8c32c3e45026ef8/images/1_HIGH_DISTINCTION_YEAR_1_APPLIED_COMPUTER_PROJECT_ANDROID_PROGRAMMING_BINUS_UNIVERSITY_JAKARTA_Front.jpg", 
     type: "cer", mode: "land", title: "HIGH DISTINCTION APPLIED ANDROID PROGRAMMING BINUS UNIVERSITY"},
 
     {url: "https://rawcdn.githack.com/NauvalNC/nauval_website/af32c64f906f51173da68676bcd366ba6788c68d/images/flatpastel.jpg", 
