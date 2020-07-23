@@ -110,6 +110,36 @@ function toggleReqContentWindow()
 }
 //Request Content | END
 
+//Archive Panel | START
+var archiveWindow = $("#archive-panel");
+var isArchiveHide = true;
+
+setupArhiveWindow();
+
+function setupArhiveWindow() 
+{
+    archiveWindow.hide();
+    archiveWindow.css("opacity", "0");
+}
+
+function toggleArhiveWindow() 
+{
+    if (isArchiveHide) 
+    {
+        archiveWindow.show();
+        archiveWindow.animate({opacity: "1"}, imageToggleInterval);
+    } else 
+    {
+        archiveWindow.animate({opacity: "0"}, imageToggleInterval, function()
+        {
+            archiveWindow.hide();
+        });
+    }
+
+    isArchiveHide = !isArchiveHide;
+}
+//Archive Panel | END
+
 $(document).ready(function()
 {
     var homePageUrl = 'https://nauvalme.blogspot.com';
