@@ -32,7 +32,7 @@ $(document).ready(function()
       item += "<div class='carousel-item'>";
     }
     
-    item += "<h6 style='font-weight: bold'>" + reviews[i].buyer + "<i>- " + reviews[i].country + "</i></h6>";
+    item += "<h6 style='font-weight: bold'>" + reviews[i].buyer + "<i> - " + reviews[i].country + "</i></h6>";
     item += "<p>" + reviews[i].msg + "</p>";
     
     item += "<div class='review_rating'>";
