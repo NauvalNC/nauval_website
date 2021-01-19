@@ -9,7 +9,7 @@ $(document).ready(function()
     {buyer:"mokimato", country:"Canada", msg: "Excellent service and amazing to work with! went over and beyond on everything I asked for in a very quick amount of time! I am extremely happy with the final outcome and definitely would recommend :)", rating: 5}
   ];
 
-  var inner = $("#fiverrReviewIndicator .container .carousel .carousel-inner");
+  var inner = $("#fiverrReviewIndicator .carousel-inner");
   var item = "";
 
   for (var i=0; i < reviews.length; i++)
