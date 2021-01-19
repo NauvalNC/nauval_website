@@ -24,7 +24,7 @@ $(document).ready(function()
     }
     
     item += "<h6 style='font-weight: bold'>" + reviews[i].buyer + "<i>- " + reviews[i].country + "</i></h6>";
-    item += "<p>" + reviews[i].msg :) + "</p>";
+    item += "<p>" + reviews[i].msg + "</p>";
     
     item += "<div class='review_rating'>";
     for (var j=0; j < reviews[i].rating; j++)
