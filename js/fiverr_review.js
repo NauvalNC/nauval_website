@@ -27,7 +27,7 @@ $(document).ready(function()
     item += "<p>" + reviews[i].msg :) + "</p>";
     
     item += "<div class='review_rating'>";
-    for (var j=0; j < reviews[j].rating; j++)
+    for (var j=0; j < reviews[i].rating; j++)
     {
       item += "<i class='fa fa-star' aria-hidden='true'></i>";
     }
