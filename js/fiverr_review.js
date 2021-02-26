@@ -16,7 +16,9 @@ $(document).ready(function()
     {buyer:"pontikue", country:"Cyprus", msg: "Well made 3d models with good poly counts. He agreed to my requests to add more details.", rating: 5},
     {buyer:"pontikue", country:"Cyprus", msg: "I needed an extra outfit for one of my characters, and nauvalnever delivered quickly and with the expected quality. 👍", rating: 5},
     {buyer:"mokimato", country:"Canada", msg: "Always great working with Nauvalnever! speedy delivery, amazing art, 10/10!", rating: 5},
-    {buyer:"benjamincoll875", country:"Japan", msg: "Words can not even begin to describe how blown away I am by this seller. The results are beyond what I could have hoped for. The seller was on point, kept me up to date on the process and was polite and courteous every step of the way.", rating: 5}
+    {buyer:"benjamincoll875", country:"Japan", msg: "Words can not even begin to describe how blown away I am by this seller. The results are beyond what I could have hoped for. The seller was on point, kept me up to date on the process and was polite and courteous every step of the way.", rating: 5},
+    {buyer:"benjamincoll875", country:"Japan", msg: "I'm blown away with how well this seller was able to convert this 2d chibi into a cute low poly model. Fiver stars plus one.", rating: 5},
+    {buyer:"pontikue", country:"Cyprus", msg: "Character model looks almost exactly like the concept art I provided! I'm super happy with it 😄", rating: 5}
   ];
 
   var inner = $("#fiverrReviewIndicator .carousel-inner");
