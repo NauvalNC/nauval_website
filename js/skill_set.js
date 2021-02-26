@@ -9,7 +9,7 @@ function addSkill(name, value) {
     item += '<p class="skill_num">' + value + '%</p>';
     item += '</div>';
     item += '</div>';
-    item += '</div>"';
+    item += '</div>';
     return item;
 }
 
