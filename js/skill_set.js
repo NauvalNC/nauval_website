@@ -34,11 +34,39 @@ function displaySkillSet(name, data) {
     resume.append(item);
 }
 
+// Skills
+var skill = [
+    {name: "Programming", value: 84},
+    {name: "Networking", value: 75},
+    {name: "3D Modelling", value: 85},
+    {name: "2D Digital Art", value: 83},
+];
+
+// Programming
 var prog = [
     {name: "C++", value: 75},
     {name: "C#", value: 85},
     {name: "Java", value: 85},
-    {name: "Web Development Language", value: 83},
+    {name: "Web Development Languages", value: 83},
 ];
 
+// Software Development
+var dev = [
+    {name: "Android Studio", value: 82},
+    {name: "Unity Engine", value: 85},
+    {name: "Unreal Engine", value: 73},
+    {name: "Java Desktop App (Netbeans)", value: 70},
+];
+
+// Software Experience
+var exp = [
+    {name: "Blender", value: 88},
+    {name: "Clip Studio Paint", value: 85},
+    {name: "Photoshop", value: 80},
+    {name: "Any Text Editors", value: 85},
+];
+
+displaySkillSet("Skills", skill);
 displaySkillSet("Programming", prog);
+displaySkillSet("Software Development", dev);
+displaySkillSet("Software Experience", exp);
