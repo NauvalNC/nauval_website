@@ -42,7 +42,7 @@ function displaySkillText(name, data) {
         item += "<li>" + data[x] + "</li>";
     }
     item += "</ul>";
-    item ++ closeSkillSet();
+    item += closeSkillSet();
     resume.append(item);
 }
 
