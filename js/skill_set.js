@@ -5,7 +5,7 @@ function addSkill(name, value) {
     item += '<div class="skill_meter">';
     item += '<p>' + name + '</p>';
     item += '<div class="skill_bar">';
-    item += '<div class="skill_percentage">';
+    item += '<div class="skill_percentage" style="width:' + value + '%">';
     item += '<p class="skill_num">' + value + '%</p>';
     item += '</div>';
     item += '</div>';
