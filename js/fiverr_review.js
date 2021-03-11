@@ -18,13 +18,14 @@ $(document).ready(function()
     {buyer:"mokimato", country:"Canada", msg: "Always great working with Nauvalnever! speedy delivery, amazing art, 10/10!", rating: 5},
     {buyer:"benjamincoll875", country:"Japan", msg: "Words can not even begin to describe how blown away I am by this seller. The results are beyond what I could have hoped for. The seller was on point, kept me up to date on the process and was polite and courteous every step of the way.", rating: 5},
     {buyer:"benjamincoll875", country:"Japan", msg: "I'm blown away with how well this seller was able to convert this 2d chibi into a cute low poly model. Fiver stars plus one.", rating: 5},
-    {buyer:"pontikue", country:"Cyprus", msg: "Character model looks almost exactly like the concept art I provided! I'm super happy with it 😄", rating: 5}
+    {buyer:"pontikue", country:"Cyprus", msg: "Character model looks almost exactly like the concept art I provided! I'm super happy with it 😄", rating: 5},
+    {buyer:"panuchka", country:"Finland", msg: "This seller is a real deal. If you wish to have professional quality models, awesome communication and speedy delivery, look no further! Will definitely order again.", rating: 5}
   ];
 
   var inner = $("#fiverrReviewIndicator .carousel-inner");
   var item = "";
 
-  for (var i=0; i < reviews.length; i++)
+  for (var i=reviews.length - 1; i >= 0 ; i--)
   {
     item = "";
     if (i==0)
