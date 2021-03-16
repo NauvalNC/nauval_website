@@ -26,7 +26,7 @@ $(document).ready(function()
   var inner = $("#fiverrReviewIndicator .carousel-inner");
   var item = "";
 
-  for (var i= 0; i < reviews.length; i--)
+  for (var i= 0; i < reviews.length; i++)
   {
     item = "";
     if (i==0)
