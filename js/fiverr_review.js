@@ -2,10 +2,6 @@ $(document).ready(function()
 {
   var reviews = 
   [
-    {buyer:"kayabun", country:"Malaysia", code:"my", msg: "Lovely, lovely art with an even lovelier seller! Thank you :)", rating: 5},
-    {buyer:"kayabun", country:"Malaysia", code:"my", msg: "Second order. Wonderful as always :)", rating: 5},
-    {buyer:"kayabun", country:"Malaysia", code:"my", msg: "Highly recommended artist. Very patient and pleasant to work with. Thanks :D", rating: 5},
-    {buyer:"lottichu", country:"Singapore", code:"sg", msg: "Perfect seller!! got every detail correct and very professional.", rating: 5},
     {buyer:"mokimato", country:"Canada", code:"ca", msg: "Excellent service and amazing to work with! went over and beyond on everything I asked for in a very quick amount of time! I am extremely happy with the final outcome and definitely would recommend :)", rating: 5},
     {buyer:"charmingneku", country:"United States", code:"us", msg: "Perfect! We got everything we needed :) Will hire again for future projects.", rating: 5},
     {buyer:"davonpeoples", country:"United States", code:"us", msg: "Great quality service!!!", rating: 5},
@@ -21,12 +17,16 @@ $(document).ready(function()
     {buyer:"pontikue", country:"Cyprus", code:"cy", msg: "Character model looks almost exactly like the concept art I provided! I'm super happy with it 😄", rating: 5},
     {buyer:"panuchka", country:"Finland", code:"fi", msg: "This seller is a real deal. If you wish to have professional quality models, awesome communication and speedy delivery, look no further! Will definitely order again.", rating: 5},
     {buyer:"chrisevansdev", country:"United States", code:"us", msg: "Did excellent work! We were modernizing an older character and he did a great job giving it a new cartoon feel while still preserving the original style. I highly recommend!", rating: 5},
+    {buyer:"kayabun", country:"Malaysia", code:"my", msg: "Lovely, lovely art with an even lovelier seller! Thank you :)", rating: 5},
+    {buyer:"kayabun", country:"Malaysia", code:"my", msg: "Second order. Wonderful as always :)", rating: 5},
+    {buyer:"kayabun", country:"Malaysia", code:"my", msg: "Highly recommended artist. Very patient and pleasant to work with. Thanks :D", rating: 5},
+    {buyer:"lottichu", country:"Singapore", code:"sg", msg: "Perfect seller!! got every detail correct and very professional.", rating: 5},
   ];
 
   var inner = $("#fiverrReviewIndicator .carousel-inner");
   var item = "";
 
-  for (var i=reviews.length - 1; i >= 0 ; i--)
+  for (var i= 0; i < reviews.length; i--)
   {
     item = "";
     if (i==0)
