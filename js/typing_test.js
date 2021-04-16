@@ -15,7 +15,7 @@ let test_result_panel = $("#type_test_result");
 let wpm_panel = $("#wpm");
 let test_des = $("#test_des");
 
-let TIME_LIMIT = 10;
+let TIME_LIMIT = 60;
 let timeLeft = TIME_LIMIT;
 let timer = null;
 
