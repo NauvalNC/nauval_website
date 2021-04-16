@@ -2,6 +2,7 @@ $(document).ready(function()
 {
   var reviews = 
   [
+    {buyer:"pontikue", country:"Cyprus", code:"cy", msg: "nauvalnever demonstrated excellent drawing skills as he created various anime expressions for my character. Recommended 👍.", rating: 5},
     {buyer:"mokimato", country:"Canada", code:"ca", msg: "Excellent service and amazing to work with! went over and beyond on everything I asked for in a very quick amount of time! I am extremely happy with the final outcome and definitely would recommend :)", rating: 5},
     {buyer:"charmingneku", country:"United States", code:"us", msg: "Perfect! We got everything we needed :) Will hire again for future projects.", rating: 5},
     {buyer:"davonpeoples", country:"United States", code:"us", msg: "Great quality service!!!", rating: 5},
