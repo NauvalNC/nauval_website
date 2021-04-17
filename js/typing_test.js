@@ -127,7 +127,13 @@ function checkInput(input) {
     test_error.text(totalErrors);
     test_acc.text(accuracy.toString() + "%");
 
-    if (check.length > words.length) {
+    if (check.length == words.length) {
+        if (check[words.length - 1] == words[words.length - 1]) {
+            lastWordsTyped += words.length;
+            lastErrors += tempError;
+            onCompleted();
+        }
+    } else if (check.length > words.length) {
         lastWordsTyped += words.length;
         lastErrors += tempError;
         onCompleted();
