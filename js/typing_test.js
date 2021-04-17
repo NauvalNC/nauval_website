@@ -1,6 +1,8 @@
 let text = [
-    "Everytime I see you, my heart melted like an ice cream.",
-    "Sometimes when you think one plus one is two, its actually a window."
+    "In database system, data model is an integrated collection of concepts for describing data, relationships between data, and constraints on the data in an organization.",
+    "Conceptual modeling in database system is a process of developing a model of information use that is independent of implementation details.",
+    "Teleprocessing is an multi-user processing architectures where one computer with a single CPU and a number of terminals. Processing performed within the same physical computer. User terminals are typically “dumb”, incapable of functioning on their own, and cabled to the central computer.",
+    "Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources that can be rapidly provisioned and released with minimal management effort or service provider interaction."
 ];
 let main_test_panel = $("#type_test_main_panel");
 let start_btn = $("#start_typetest_btn");
