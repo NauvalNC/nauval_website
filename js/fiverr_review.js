@@ -2,6 +2,9 @@ $(document).ready(function()
 {
   var reviews = 
   [
+    {buyer:"pikapwn", country:"United States", code:"us", msg: "Delivered the animations and face rig just as I wanted, thanks!", rating: 5},
+    {buyer:"pikapwn", country:"United States", code:"us", msg: "The order was delivered very fast and exactly as I wanted it! They showed me the first version of the model, and I requested some changes and they implemented the changes perfectly! Thank you for the great work!!", rating: 5},
+    {buyer:"wumingdesign", country:"Malaysia", code:"my", msg: "Fast delivery! The 3D character is 100% same as my design, riggings details is superb! Will definitely come back for the service again :)", rating: 5},
     {buyer:"pontikue", country:"Cyprus", code:"cy", msg: "nauvalnever demonstrated excellent drawing skills as he created various anime expressions for my character. Recommended 👍.", rating: 5},
     {buyer:"mokimato", country:"Canada", code:"ca", msg: "Excellent service and amazing to work with! went over and beyond on everything I asked for in a very quick amount of time! I am extremely happy with the final outcome and definitely would recommend :)", rating: 5},
     {buyer:"charmingneku", country:"United States", code:"us", msg: "Perfect! We got everything we needed :) Will hire again for future projects.", rating: 5},
