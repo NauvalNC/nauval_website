@@ -1,5 +1,6 @@
 $(document).ready(function()
 {
+  console.log("hello world")
   var models = 
   [
     {src:"https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp", alt:"United States"},
@@ -26,4 +27,5 @@ $(document).ready(function()
     item += "</div>
   }
   inner.append(item)
+  console.log("hello world 2")
 });
