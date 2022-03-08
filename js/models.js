@@ -24,7 +24,7 @@ $(document).ready(function()
     item += "<div class='col-lg-4 col-md-12 mb-4 mb-lg-0'>";
     for (var j = 0; j < row; j++) {
       if (index > models.length - 1) break;
-      item += "<img class='w-100 shadow-1-strong rounded mb-4' src='" + url + models[index].src + "'/>";
+      item += "<img class='model_img w-100 shadow-1-strong rounded mb-4' src='" + url + models[index].src + "'/>";
       index++;
     }
     item += "</div>";
