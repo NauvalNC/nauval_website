@@ -1,3 +1,4 @@
+cobsole.log("Nani kore")
 $(document).ready(function()
 {
   console.log("hello world")
