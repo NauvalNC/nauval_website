@@ -12,6 +12,7 @@ $(document).ready(function()
     {src:"1kTqZQDKuPS_xMED1o6jEFFwoB9DeGILK"}, //worker
     
     {src:"1Lfj_K1E0YUp5uLWS9ZGLiL21EaaXiUb2"}, //school
+    {src:"19SpKUubtqv_hTEB5Dp3RmwUq9hmI5MfR"}, //aiya
     //{src:"1GWVjWaBMKGr8trP6qhOdnHzzFk1b-5h0"}, //knight
     //{src:"1KYmAO-5wMSinh7MY76n3AdI0CtzxgMaI"}, //goat
   ];
