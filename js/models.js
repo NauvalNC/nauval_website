@@ -24,7 +24,7 @@ $(document).ready(function()
       item += "<img class='w-100 shadow-1-strong rounded mb-4' alt='" + models[index].alt + "' src='" + models[index].src + "'/>";
       index++;
     }
-    item += "</div>;
+    item += "</div>";
   }
   inner.append(item);
   console.log("hello world 2");
